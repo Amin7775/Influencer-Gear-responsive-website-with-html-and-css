@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  color: #3a3a3a;
+ 
 }
 
 .primary-btn {
@@ -27,6 +27,7 @@ header {
   max-width: 1440px;
   margin: 0 auto;
   border: 2;
+  color: #3a3a3a;
 }
 
 nav {
@@ -116,77 +117,103 @@ z-index: 20;
   border-radius: 40px;
 }
 
-
 /* main section  */
-main{
+main {
   max-width: 1440px;
   margin: 0 auto;
-
+  color: #3a3a3a;
 }
 /* brand Section */
-#brand{
+#brand {
   width: 90%;
   margin: 50px auto;
-  background: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.19) 50.38%, rgba(192, 204, 218, 0.10) 100%);
-  border: 2px ;
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.19) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+  border: 2px;
 }
-#brand > ul{
+#brand > ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 15px 0 ;
+  padding: 15px 0;
 }
 
-#brand > ul > li{
+#brand > ul > li {
   list-style: none;
 }
-.brand-img{
+.brand-img {
   width: 100%;
 }
 
 /* collection */
-#collection{
+#collection {
   margin-top: 80px;
 }
-.collection-title{
+.collection-title {
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
-margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
-.collection-container{
+.collection-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   margin: 10px auto;
 }
 
-.item{
+.item {
   background: #3a3a3a0a;
   padding: 15px;
 }
 
-.item-img{
+.item-img {
   width: 100%;
 }
 
-.item-title{
+.item-title {
   font-size: 28px;
   font-weight: 500;
 }
 
-.item-price{
+.item-price {
   font-size: 24px;
 }
 
-.item-rating, .item-description{
-  color: #5E6366;
+.item-rating,
+.item-description {
+  color: #5e6366;
   font-size: 14px;
   font-weight: 600;
 }
 
+footer{
+  color: white;
+  margin-top: 50px;
+  background: #0A0826;
+  text-align: center;
+}
 
+.footer-content{
+  color: #FFFFFF;
+  padding: 100px 0;
+}
+
+.Copyright{
+  color: #D9DBE1;
+  font-size: 14px;
+  font-weight: 500;
+}
+.footer-title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 
 /* responsive style */
 /* mobile */
@@ -244,7 +271,7 @@ margin-bottom: 35px;
   }
 
   /* brand */
-  #brand > ul{
+  #brand > ul {
     flex-wrap: wrap;
     gap: 1.5rem;
     padding: 15px;
@@ -275,16 +302,16 @@ margin-bottom: 35px;
     margin-top: 10px;
     text-align: center;
   }
-  .banner-title{
+  .banner-title {
     font-size: 2.5rem;
   }
-  .banner-description{
+  .banner-description {
     width: 80%;
     margin: 20px auto;
   }
 
   /* brand */
-  #brand > ul{
+  #brand > ul {
     flex-wrap: wrap;
     gap: 2.5rem;
     padding: 20px;
